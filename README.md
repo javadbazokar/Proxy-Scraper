@@ -28,12 +28,12 @@ A simple and powerful proxy scraping and validation tool that helps you extract,
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Proxy-Scraper.git
+   git clone https://github.com/yourusername/proxy-scraper.git
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd Proxy-Scraper
+   cd proxy-scraper
    ```
 
 3. **Set Permissions:** Ensure the `proxies.txt` file is writable:
@@ -54,7 +54,7 @@ A simple and powerful proxy scraping and validation tool that helps you extract,
 
 1. Open the project in your browser by navigating to:
    ```
-   http://localhost/Proxy-Scraper/
+   http://localhost/proxy-scraper/
    ```
 
 2. **Interface Overview:**
@@ -71,14 +71,14 @@ A simple and powerful proxy scraping and validation tool that helps you extract,
 ## File Structure 📁
 
 ```
-Proxy-Scraper/
+proxy-scraper/
 ├── assets/
 │   ├── links.json        # Input file containing the list of URLs to scrape
 │   ├── script.js         # Frontend JavaScript for managing the process
-│   └── style.css         # Styling for the interface
+│   ├── style.css         # Styling for the interface
+│   └── proxy_count.php   # Returns the count of saved proxies
 ├── index.html            # Main interface
 ├── save_link.php         # Handles link validation and proxy saving
-├── get_proxy_count.php   # Returns the count of saved proxies
 ├── proxies.txt           # Output file for validated proxies
 └── README.md             # Documentation
 ```
@@ -132,6 +132,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support 💬
 
-For any issues, feel free to open an issue on GitHub or contact me at [your.email@example.com](mailto:your.email@example.com).
+For any issues, feel free to open an issue on GitHub or contact me at [jbazokar@gmail.com](mailto:jbazokar@gmail.com).
 
 Happy Scraping! 🎉
