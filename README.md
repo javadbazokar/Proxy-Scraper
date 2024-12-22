@@ -1,5 +1,5 @@
 
-# Proxy Scraper 🚀
+# Proxy Scraper 2024 🚀
 
 A simple and powerful proxy scraping and validation tool that helps you extract, validate, and manage proxies from various sources. Perfect for developers and enthusiasts who need to work with proxies in an efficient way! 🌟
 
