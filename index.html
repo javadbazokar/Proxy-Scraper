@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Links Content</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-primary text-center mb-2">Proxy Scraper</h1>
+        <button id="startButton" class="btn btn-primary w-100 btn-lg mb-2">Start</button>
+        <button id="stopButton" class="btn btn-danger w-100 btn-lg mb-2" style="display: none;">Stop Process</button>
+        <div id="status" class="text-center text-danger"></div>
+        <div id="loading" class="spinner"></div>
+        <div class="counter-container mt-4">
+            <div class="counter-box">
+                <h4 class="mt-2 mb-2">Successful Links: <span id="successCount" class="text-success">0</span></h4>
+            </div>
+            <div class="counter-box">
+                <h4 class="mt-2 mb-2">Failed Links: <span id="failCount" class="text-danger">0</span></h4>
+            </div>
+        </div>
+        <div class="counter-container">
+            <div class="counter-box">
+                <h4 class="mt-2 mb-2">Total Links: <span id="totalLinks" class="text-primary">0</span></h4>
+            </div>
+            <div class="counter-box">
+                <h4 class="mt-2 mb-2">Proxies: <span id="uniqueCount" class="text-success">0</span></h4>
+            </div>
+        </div>
+        <div class="counter-box w-100 mt-3 ">
+            <h4 class="text-center mt-2 mb-2">Github:  <a href="https://github.com/javadbazokar/Proxy-Scraper" class="">javadbazokar</a> ✌️</h4>
+        </div>
+        <div id="downloadLink" class="text-center mt-2 w-100"></div>
+    </div>
+    <div id="toastMessage" class="toast toast-top-full-width">
+        <div class="toast-body text-center">
+            Process completed successfully ✅
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
